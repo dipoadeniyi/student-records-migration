@@ -1,0 +1,11 @@
+SourceRow,StudentID,FullName,Course,EnrolmentDate,Status
+1,S001,Demo Learner A,Data Analytics,2025-09-01,Active
+2,S002,Demo Learner B,Data Analytics,2025-09-02,Active
+3,S002,Demo Learner B,Data Analytics,2025-09-02,Active
+4,S003,Demo Learner C,Python,2025-09-03,Active
+5,,Demo Learner D,Python,2025-09-03,Active
+6,S004,Demo Learner E,Power BI,invalid date,Active
+7,S005,Demo Learner F,Power BI,2025-09-04,Completed
+8,S003,Demo Learner C,Python,2025-09-03,Completed
+9,S006,Demo Learner G,SQL Server,2025-09-05,Withdrawn
+10,S007,Demo Learner H,,2025-09-06,Active

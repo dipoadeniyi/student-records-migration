@@ -1,0 +1,12 @@
+Students = COUNTROWS('StudentRegister')
+
+Active Students =
+CALCULATE([Students], 'StudentRegister'[Status] = "ACTIVE")
+
+Completed Students =
+CALCULATE([Students], 'StudentRegister'[Status] = "COMPLETED")
+
+Withdrawn Students =
+CALCULATE([Students], 'StudentRegister'[Status] = "WITHDRAWN")
+
+Completion Rate = DIVIDE([Completed Students], [Students])
